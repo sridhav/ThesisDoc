@@ -1,0 +1,132 @@
+\documentclass{osuthesis}
+\usepackage{graphicx}
+\usepackage{multirow}
+
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{
+	language=Java,
+	aboveskip=3mm,
+	belowskip=3mm,
+	showstringspaces=false,
+	columns=flexible,
+	basicstyle={\small\ttfamily},
+	numbers=none,
+	numberstyle=\tiny\color{gray},
+	keywordstyle=\color{blue},
+	commentstyle=\color{dkgreen},
+	stringstyle=\color{mauve},
+	breaklines=true,
+	breakatwhitespace=true,
+	tabsize=3
+	}
+
+
+\graphicspath{ {images/} }
+              \title{HADOOP IMAGE PROCESSING FRAMEWORK} % Title in ALL CAPS
+             \formattedtitle{HADOOP IMAGE PROCESSING FRAMEWORK} % Same as \title, but with line
+                                       % breaks to obtain the inverted
+                                      % pyramid shape required for
+                                      % title and approval pages
+              \author{SRIDHAR VEMULA} % Author in ALL CAPS
+
+             % Earned degree(s)
+              \degreeone{\\%
+               Master of Science in Computer Science\\%
+               Oklahoma State University\\%
+               Stillwater, OK\\%
+               2015}
+% %             \degreeone{%
+%               <Degree>\\%
+ %               <Institution>\\%
+  %              <City>, <State/Country>\\%
+   %             <Year>} % (If applicable)
+
+              % Current degree information
+              \degreesought{Master of Science} % Degree in ALL CAPS
+              \degreedate{May, 2015}
+              \majorfield{Computer Science}
+
+              \begin{document}
+             \bibliographystyle{plain}  % Several styles available,
+                                         % check with your department
+
+             % FOREMATTER
+              \maketitle        % Creates title page.
+              \makeapproval{3}  % Creates spproval page.  The argument
+                                % (the numeral 4,5, or 6) is the number of
+                               % signatures required (Remember to add one
+                                % for the Dean of the Graduate College.)
+%             \begin{preface}   % Creates Preface page (OPTIONAL)
+             %   <Preface text here.>
+ %             \end{preface}
+
+  %            \begin{acknowledge}  % Creates Acknowledgments
+                                   % page (OPTIONAL)
+               % <Acknowledgment text here.>
+   %          \end{acknowledge}
+			 \begin{abstract}{SRIDHAR VEMULA}{MASTER IN SCIENCE}{COMPUTER SCIENCE} % Creates abstract
+			              \par With the rapid growth of social media, the number of images being
+			              uploaded to the internet is exploding. Massive quantities of images
+			              are shared through multi-platform services such as Snapchat,
+			              Instagram, Facebook and WhatsApp; recent studies estimate that over
+			              1.8 billion photos are uploaded every day.  However, for the most
+			              part, applications that make use of this vast data have yet to
+			              emerge. Most current image processing applications, designed for
+			              small-scale, local computation, do not scale well to web-sized
+			              problems with their large requirements for computational resources and
+			              storage.  The emergence of processing frameworks such as the Hadoop
+			              MapReduce\cite{dean2008} platform addresses the problem of providing
+			              a system for computationally intensive data processing and distributed
+			              storage. However, to learn the technical complexities of developing
+			              useful applications using Hadoop requires a large investment of time
+			              and experience on the part of the developer.  As such, the pool of
+			              researchers and programmers with the varied skills to develop
+			              applications that can use large sets of images has been limited. To
+			              address this we have developed the Hadoop Image Processing Framework,
+			              which provides a Hadoop-based library to support large-scale image
+			              processing. The main aim of the framework is to allow developers of
+			              image processing applications to leverage the Hadoop MapReduce
+			              framework without having to master its technical details and introduce
+			              an additional source of complexity and error into their programs.
+
+			              \end{abstract}
+              \tableofcontents  % Creates table of contents
+              \listoftables
+             \listoffigures    % Creates list of figures (IF APPLICABLE)
+	       
+%              \listoftables     % Creates list of tables (IF APPLICABLE)
+			
+              % BODY OF THESIS
+              \include{body2}  % (Recommend storing text in separate *.tex file, then
+                      % including with \include{<filename>}.)
+				
+              % BIBLIOGRAPHY
+ %             \bibliography{references.bib}
+				
+              % APPENDICES
+              \appendix
+               % (Recommend storing text in separate *.tex file, then
+                      % including with \include{<filename>}.)
+
+              % MISCELLANEOUS
+              \begin{vita}{Sridhar Vemula}{Master of Science}{Computer Science} % Creates vita
+                %\vitaitem{Personal Data:} <Text> % OPTIONAL
+                
+                \vitaitem{\renewcommand\labelitemi{}\begin{itemize}
+                		\item {Education:}
+                		\item{Completed the requirements for the Masters degree with a major in Computer Science at
+                			Oklahoma State University in May, 2015.}
+                	\end{itemize}}
+               % \vitaitem{Experience:} 
+               % \vitaitem{Professional Memberships:} <Text>
+              \end{vita}
+
+             
+				
+              \end{document}
