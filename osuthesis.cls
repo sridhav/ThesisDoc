@@ -379,7 +379,7 @@
        \parbox{\titlewidth}{\centering %
          \begin{tabular}{@{}c@{}}  % @{} suppresses leading and trailing spaces
            \rule{\titlewidth}{0in} \\ \mbox{} \\ \mbox{Dr. Christopher John Crick} \\ \hline  % Sets width of sig. lines
-           Thesis Adviser \\ \mbox{} \\ \mbox{Dr. Nophill Park} \\ \hline
+           Thesis Adviser \\ \mbox{} \\ \mbox{Dr. Nohpill Park} \\ \hline
            \mbox{} \\ \mbox{} \\ \mbox{Dr. David Cline} \\ \hline
            \mbox{} \\ \mbox{} \\ \mbox{} \\
          \end{tabular}}
