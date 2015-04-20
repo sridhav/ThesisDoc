@@ -168,7 +168,7 @@
       }%
    \renewcommand\newblock{\par}}%
 }
-\ExecuteOptions{letterpaper,10pt,oneside,onecolumn,final,openany}
+\ExecuteOptions{letterpaper,12pt,oneside,onecolumn,final,openany}
 \ProcessOptions
 
 \input{size1\@ptsize.clo}
