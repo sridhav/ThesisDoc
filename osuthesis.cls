@@ -968,7 +968,7 @@
 \newcommand\pname{Page}
 \newcommand\listfigurename{LIST OF FIGURES}
 \newcommand\listtablename{LIST OF TABLES}
-\newcommand\bibname{BIBLIOGRAPHY}
+\newcommand\bibname{REFERENCES}
 \newcommand\indexname{Index}
 \newcommand\figurename{Figure}
 \newcommand\tablename{Table}
